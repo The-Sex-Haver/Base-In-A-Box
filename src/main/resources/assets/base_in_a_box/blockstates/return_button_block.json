@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "base_in_a_box:block/return_button_block"
+    },
+    "powered=true": {
+      "model": "base_in_a_box:block/return_button_block_pressed"
+    }
+  }
+}

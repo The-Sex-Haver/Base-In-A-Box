@@ -1,0 +1,12 @@
+{
+  "generator": {
+    "type": "base_in_a_box:base_generator_type",
+    "seed": 0,
+    "biome_source": {
+      "seed": 0,
+      "type": "minecraft:fixed",
+      "biome": "base_in_a_box:base_biome"
+    }
+  },
+  "type": "base_in_a_box:base_type"
+}

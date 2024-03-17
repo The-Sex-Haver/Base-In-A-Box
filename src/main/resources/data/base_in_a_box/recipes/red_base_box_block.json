@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "base_in_a_box:base_box_block"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "base_in_a_box:red_base_box_block",
+    "count": 1
+  }
+}

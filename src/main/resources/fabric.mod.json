@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "base_in_a_box",
+  "version": "0.0.1",
+  "name": "Base in a Box",
+  "description": "A craftable, portable base!",
+  "authors": [
+    "The Sex Haver"
+  ],
+  "contact": {
+  },
+  "license": "GPL",
+  "icon": "assets/base_in_a_box/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.pyotr_bagration.base_in_a_box.BaseInABoxClient"
+    ],
+    "main": [
+      "com.pyotr_bagration.base_in_a_box.BaseInABox"
+    ]
+  },
+  "mixins": [
+    "base_in_a_box.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

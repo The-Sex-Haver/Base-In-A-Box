@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "base_in_a_box:magenta_base_box_block"
+        }
+      ]
+    }
+  ]
+}

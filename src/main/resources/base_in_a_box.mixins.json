@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pyotr_bagration.base_in_a_box.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockItemInjectors",
+    "ChorusFruitItemMixins",
+    "EnderPearlItemMixins"
+  ],
+  "client": [
+    "IntegratedServerLoaderMixins"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
